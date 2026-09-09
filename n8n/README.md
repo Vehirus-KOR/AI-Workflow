@@ -1,10 +1,10 @@
 # n8n Workflow Examples
 
-n8n을 활용한 Workflow 및 API Integration 실습 예제입니다.
-
 ## Examples
 
 ### (1) Google Sheets Example
+
+[YouTube - n8n Google Credentials Setup](https://www.youtube.com/watch?v=lXNIteL16Z0)
 
 **File:** `(1)google-sheets-example.json`
 
