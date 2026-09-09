@@ -1,10 +1,6 @@
 # n8n Workflow Examples
 
-## Examples
-
 ### (1) Google Sheets Example
-
-[YouTube - n8n Google Credentials Setup](https://www.youtube.com/watch?v=lXNIteL16Z0)
 
 **File:** `(1)google-sheets-example.json`
 
@@ -18,12 +14,8 @@ Google OAuth 2.0으로 n8n과 Google Sheets API를 연결하고,
 **구현 순서**
 1. Google Sheets / Drive API 활성화
 2. OAuth 2.0 Credential 생성 및 n8n 연결
-3. Google Sheets의 `name`, `product`, `price` 컬럼 매핑
+3. Google Sheets 컬럼 매핑
 4. Manual Trigger 실행
 5. Google Sheets에 새로운 Row 추가
 
-**기능**
-- Google OAuth 2.0 인증
-- Google Sheets API 연동
-- 컬럼 데이터 Mapping
-- Spreadsheet Row 자동 추가
+**Reference:** [YouTube - n8n Google Credentials Setup](https://www.youtube.com/watch?v=lXNIteL16Z0)
