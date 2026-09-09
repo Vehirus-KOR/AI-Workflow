@@ -18,6 +18,8 @@ Google OAuth 2.0으로 n8n과 Google Sheets API를 연결하고,
 4. Manual Trigger 실행
 5. Google Sheets에 새로운 Row 추가
 
+---
+
 ### (2) Gmail Example
 
 **File:** `(2)gmail-example.json`
