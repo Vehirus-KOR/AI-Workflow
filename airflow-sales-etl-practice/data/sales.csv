@@ -1,0 +1,8 @@
+order_id,order_date,category,quantity,unit_price,status
+O1001,2026-09-01,book,2,15000,completed
+O1002,2026-09-01,electronics,1,89000,completed
+O1003,2026-09-01,book,3,12000,cancelled
+O1004,2026-09-02,food,5,4000,completed
+O1005,2026-09-02,electronics,0,45000,completed
+O1006,2026-09-02,food,2,not-a-number,completed
+O1007,2026-09-02,book,1,22000,completed

@@ -1,0 +1,9 @@
+{
+  "row_count": 4,
+  "total_revenue": 161000,
+  "revenue_by_category": {
+    "book": 52000,
+    "electronics": 89000,
+    "food": 20000
+  }
+}

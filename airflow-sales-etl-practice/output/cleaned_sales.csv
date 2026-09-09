@@ -1,0 +1,5 @@
+order_id,order_date,category,quantity,unit_price,revenue
+O1001,2026-09-01,book,2,15000,30000
+O1002,2026-09-01,electronics,1,89000,89000
+O1004,2026-09-02,food,5,4000,20000
+O1007,2026-09-02,book,1,22000,22000
