@@ -1,0 +1,69 @@
+{
+  "name": "Gmail Send Example",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -256,
+        -96
+      ],
+      "id": "c290d0b5-199d-48c3-ba11-028b7f11c028",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "sendTo": "podopi2733@gmail.com",
+        "subject": "n8n Gmail Test :)",
+        "emailType": "text",
+        "message": "Hello n8n! Gmail",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        -32,
+        -96
+      ],
+      "id": "899fb64a-5a76-4bcd-8d8a-f637534bd7e8",
+      "name": "Send a message",
+      "webhookId": "d9f16507-bf95-4d8e-9710-4f2b4bc31db2",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "ZzfbjJMhBs9eKm6C",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "f4d21902-4483-4c82-b204-e38489f655bb",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "4c2741b6a825b255d6b2bb72d10b798e879c6902c58b9cf852105ec19d63b793"
+  },
+  "nodeGroups": [],
+  "id": "UbM2TMpVEVaJ1nRC",
+  "tags": []
+}
