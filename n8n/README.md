@@ -38,6 +38,8 @@ Google OAuth 2.0으로 n8n과 Gmail API를 연결하고, 워크플로우 실행 
 4. Manual Trigger 실행
 5. Gmail을 통해 이메일 자동 발송
 
+---
+
 **Reference**
 
 ▶ [YouTube - n8n Google Credentials Setup](https://www.youtube.com/watch?v=lXNIteL16Z0)
