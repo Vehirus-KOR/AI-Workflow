@@ -18,4 +18,6 @@ Google OAuth 2.0으로 n8n과 Google Sheets API를 연결하고,
 4. Manual Trigger 실행
 5. Google Sheets에 새로운 Row 추가
 
-**Reference:** [YouTube - n8n Google Credentials Setup](https://www.youtube.com/watch?v=lXNIteL16Z0)
+**Reference**
+
+[![n8n Google Credentials Setup](https://img.youtube.com/vi/lXNIteL16Z0/maxresdefault.jpg)](https://www.youtube.com/watch?v=lXNIteL16Z0)
