@@ -40,6 +40,27 @@ Google OAuth 2.0으로 n8n과 Gmail API를 연결하고, 워크플로우 실행 
 
 ---
 
+### (3) Submission Workflow
+
+**File:** `(3)submission-workflow-public.json`
+
+n8n Form으로 이름, 이메일, 문의내용을 입력받아 Google Sheets에 저장하고, Google Gemini가 문의에 대한 답변을 자동 생성합니다. 생성된 답변은 Google Sheets에 기록된 후 Gmail을 통해 문의자에게 자동 발송됩니다.
+
+**Workflow**
+
+`Form Trigger` → `Google Sheets (Append)` → `Gemini LLM` → `Google Sheets (Update)` → `Gmail (Send)` → `Google Sheets (Update Status)`
+
+**구현 순서**
+
+1. n8n Form을 통한 문의 데이터 수집
+2. 이름 / 이메일 / 문의내용을 Google Sheets에 저장
+3. Google Gemini를 이용한 문의 답변 자동 생성
+4. 생성된 답변을 Google Sheets에 업데이트
+5. Gmail을 통해 문의자 이메일로 답변 자동 발송
+6. 발송 완료 후 Google Sheets의 발송 상태 업데이트
+
+---
+
 **Reference**
 
 ▶ [YouTube - n8n Google Credentials Setup](https://www.youtube.com/watch?v=lXNIteL16Z0)
