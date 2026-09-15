@@ -61,6 +61,29 @@ n8n Form으로 이름, 이메일, 문의내용을 입력받아 Google Sheets에 
 
 ---
 
+### (4) n8n Getting Started
+
+[svg](https://github.com/Vehirus-KOR/AI-Workflow/tree/main/n8n#4-n8n-getting-started)
+
+**File:** `(4)n8n-getting-started.json`
+
+Google Sheets의 데이터를 불러와 조건에 맞는 Row를 필터링하고, 필요한 필드를 가공한 뒤 조건에 따라 워크플로우를 분기합니다.
+
+**Workflow**
+
+`Manual / Schedule Trigger` → `Google Sheets (Get Rows)` → `Filter` → `Edit Fields / If` → `No Operation`
+
+**구현 순서**
+
+1. Manual Trigger 및 Schedule Trigger 구성
+2. Google Sheets에서 Row 데이터 조회
+3. Filter를 사용하여 조건에 맞는 데이터 필터링
+4. Edit Fields를 사용하여 필요한 필드 가공
+5. If를 사용하여 조건에 따라 True / False 분기
+6. No Operation으로 처리 흐름 종료
+
+---
+
 **Reference**
 
 ▶ [YouTube - n8n Google Credentials Setup](https://www.youtube.com/watch?v=lXNIteL16Z0)
