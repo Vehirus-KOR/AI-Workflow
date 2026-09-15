@@ -63,8 +63,6 @@ n8n Form으로 이름, 이메일, 문의내용을 입력받아 Google Sheets에 
 
 ### (4) Getting Started
 
-[svg](https://github.com/Vehirus-KOR/AI-Workflow/tree/main/n8n#4-getting-started)
-
 **File:** `(4)Getting Started.json`
 
 Google Sheets의 데이터를 불러와 조건에 맞는 데이터를 필터링하고, 필요한 필드를 가공하거나 조건에 따라 분기하는 n8n 기본 데이터 처리 워크플로우입니다.
