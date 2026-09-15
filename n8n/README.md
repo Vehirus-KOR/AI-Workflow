@@ -61,11 +61,13 @@ n8n Form으로 이름, 이메일, 문의내용을 입력받아 Google Sheets에 
 
 ---
 
-### (4) n8n Getting Started
+### (4) Getting Started
 
-**File:** `(4)n8n-getting-started.json`
+[svg](https://github.com/Vehirus-KOR/AI-Workflow/tree/main/n8n#4-getting-started)
 
-Google Sheets의 데이터를 불러와 조건에 맞는 Row를 필터링하고, 필요한 필드를 가공한 뒤 조건에 따라 워크플로우를 분기합니다.
+**File:** `(4)Getting Started.json`
+
+Google Sheets의 데이터를 불러와 조건에 맞는 데이터를 필터링하고, 필요한 필드를 가공하거나 조건에 따라 분기하는 n8n 기본 데이터 처리 워크플로우입니다.
 
 **Workflow**
 
@@ -73,12 +75,12 @@ Google Sheets의 데이터를 불러와 조건에 맞는 Row를 필터링하고,
 
 **구현 순서**
 
-1. Manual Trigger 및 Schedule Trigger 구성
+1. Manual Trigger / Schedule Trigger를 통한 워크플로우 실행
 2. Google Sheets에서 Row 데이터 조회
-3. Filter를 사용하여 조건에 맞는 데이터 필터링
-4. Edit Fields를 사용하여 필요한 필드 가공
-5. If를 사용하여 조건에 따라 True / False 분기
-6. No Operation으로 처리 흐름 종료
+3. `age >= 18` 조건으로 데이터 필터링
+4. Edit Fields에서 이름, 이메일, 회사, 나이 필드 가공
+5. If에서 `company` 값의 존재 여부에 따라 True / False 분기
+6. No Operation으로 데이터 처리 흐름 종료
 
 ---
 
